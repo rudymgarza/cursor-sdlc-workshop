@@ -8,14 +8,16 @@ import Slide07Phase1Plan from './Slide07Phase1Plan.jsx'
 import Slide08Phase2Design from './Slide08Phase2Design.jsx'
 import Slide09Phase3Develop from './Slide09Phase3Develop.jsx'
 import Slide10Phase4Test from './Slide10Phase4Test.jsx'
+import SlideSection1Takeaway from './SlideSection1Takeaway.jsx'
 import Slide11Section2Intro from './Slide11Section2Intro.jsx'
 import Slide12Section2Step1 from './Slide12Section2Step1.jsx'
 import Slide13Section2Step2 from './Slide13Section2Step2.jsx'
 import Slide14Section2Step3 from './Slide14Section2Step3.jsx'
+import SlideSection2Takeaway from './SlideSection2Takeaway.jsx'
 import Slide15Section3Intro from './Slide15Section3Intro.jsx'
 import Slide16Section3Rules from './Slide16Section3Rules.jsx'
 import Slide17Transformation from './Slide17Transformation.jsx'
-import Slide18KeyTakeaways from './Slide18KeyTakeaways.jsx'
+import SlideSection3Takeaway from './SlideSection3Takeaway.jsx'
 import Slide19Story from './Slide19Story.jsx'
 import Slide20Go from './Slide20Go.jsx'
 
@@ -30,14 +32,16 @@ export const slides = [
   { id: 8, component: Slide08Phase2Design },
   { id: 9, component: Slide09Phase3Develop },
   { id: 10, component: Slide10Phase4Test },
-  { id: 11, component: Slide11Section2Intro },
-  { id: 12, component: Slide12Section2Step1 },
-  { id: 13, component: Slide13Section2Step2 },
-  { id: 14, component: Slide14Section2Step3 },
-  { id: 15, component: Slide15Section3Intro },
-  { id: 16, component: Slide16Section3Rules },
-  { id: 17, component: Slide17Transformation },
-  { id: 18, component: Slide18KeyTakeaways },
-  { id: 19, component: Slide19Story },
-  { id: 20, className: 'title-slide', component: Slide20Go },
+  { id: 11, component: SlideSection1Takeaway },
+  { id: 12, component: Slide11Section2Intro },
+  { id: 13, component: Slide12Section2Step1 },
+  { id: 14, component: Slide13Section2Step2 },
+  { id: 15, component: Slide14Section2Step3 },
+  { id: 16, component: SlideSection2Takeaway },
+  { id: 17, component: Slide15Section3Intro },
+  { id: 18, component: Slide16Section3Rules },
+  { id: 19, component: Slide17Transformation },
+  { id: 20, component: SlideSection3Takeaway },
+  { id: 21, component: Slide19Story },
+  { id: 22, className: 'title-slide', component: Slide20Go },
 ]

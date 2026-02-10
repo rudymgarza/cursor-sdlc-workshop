@@ -2,9 +2,9 @@ const Slide14Section2Step3 = () => (
   <>
     <div className="section-header">
       <span className="section-badge section2">Section 2</span>
-      <span className="phase-badge">Step 3: Add a Feature • 10 min</span>
+      <span className="phase-badge">Step 3: Build Your Feature • 10 min</span>
     </div>
-    <h2>Build Something New</h2>
+    <h2>Implement &amp; Ship</h2>
     <div className="scrollable">
       <div className="checklist">
         {/* Git START */}
@@ -14,14 +14,14 @@ const Slide14Section2Step3 = () => (
             <div className="check-header">
               <div className="check-box"></div>
               <div>
-                <strong>Tell Cursor to create a branch</strong>
+                <strong>Create a feature branch</strong>
               </div>
             </div>
             <div className="code-block">
               <code>
                 <span className="comment">Ask Cursor:</span>
                 <br />
-                "Create a new branch called
+                "Create a branch called
                 <br />
                 [your-team]/adds-[feature]"
               </code>
@@ -29,26 +29,68 @@ const Slide14Section2Step3 = () => (
           </div>
         </div>
 
-{/* IN CURSOR */}
-          <div className="check-group work section2">
-            <div className="check-group-label">In Cursor</div>
-          <div className="check-item">
-            <div className="check-box"></div>
-            <div>
-              <strong>Decide on a feature</strong> — something small but visible
+        {/* IN CURSOR */}
+        <div className="check-group work section2">
+          <div className="check-group-label">In Cursor</div>
+          <div className="check-item has-code">
+            <div className="check-header">
+              <div className="check-box"></div>
+              <div>
+                <strong>Create a Hook</strong> — automate commit message
+                validation for your team
+              </div>
+            </div>
+            <div className="code-block">
+              <code>
+                <span className="comment">Ask Cursor:</span>
+                <br />
+                "Create a Cursor Hook that runs before git commit
+                <br />
+                and validates the commit message starts with
+                <br />
+                our team name (e.g. 'team-1:')."
+              </code>
+            </div>
+          </div>
+          <div className="check-item has-code">
+            <div className="check-header">
+              <div className="check-box"></div>
+              <div>
+                <strong>Pull your requirements from Notion</strong> — search
+                for your team's PRD and find your feature
+              </div>
+            </div>
+            <div className="code-block">
+              <code>
+                <span className="comment">Ask Cursor:</span>
+                <br />
+                "Search Notion for our team's SDLC Workshop PRD
+                <br />
+                and find the feature assigned to me ([your GitHub
+                <br />
+                username]). What do I need to build?"
+              </code>
             </div>
           </div>
           <div className="check-item">
             <div className="check-box"></div>
             <div>
-              <strong>Use Plan Mode</strong> — try different models for
-              different perspectives
+              <strong>Use Plan Mode first</strong> — design your approach before
+              writing code, using the requirements from Notion
             </div>
           </div>
           <div className="check-item">
             <div className="check-box"></div>
             <div>
-              <strong>Implement the feature</strong>
+              <strong>Implement using Agent Mode</strong> — tell Cursor what to
+              build and let it work
+            </div>
+          </div>
+          <div className="check-item">
+            <div className="check-box"></div>
+            <div>
+              <strong>Test it</strong> — run the app and verify your feature
+              works before committing
             </div>
           </div>
         </div>
@@ -60,27 +102,25 @@ const Slide14Section2Step3 = () => (
             <div className="check-header">
               <div className="check-box"></div>
               <div>
-                <strong>Tell Cursor to commit, push, and open a PR</strong>
-                {' '}— then watch BugBot review your code
+                <strong>Commit, push, and open a PR</strong>
               </div>
             </div>
             <div className="code-block">
               <code>
                 <span className="comment">Ask Cursor:</span>
                 <br />
-                "Commit my changes with the message
+                "Commit with message 'Add [feature]',
                 <br />
-                'Add [feature]', push to my fork,
-                <br />
-                and open a PR to the original repo"
+                push and open a PR"
               </code>
             </div>
           </div>
         </div>
       </div>
       <div className="emphasis-box orange">
-        <strong>Section 2 Complete</strong> — You've used BugBot, Hooks, Skills,
-        Agents, and Ask Mode.
+        <strong>Section 2 Complete</strong> — You explored unfamiliar code,
+        created your own Rule, Skill, and Hook, then planned and shipped
+        improvements. You didn't just use Cursor — you customized it.
       </div>
     </div>
   </>
