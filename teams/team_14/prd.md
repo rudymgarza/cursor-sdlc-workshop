@@ -17,6 +17,7 @@
 ## Guidelines
 
 ### Keep It Small!
+
 - Your MVP should be buildable in **10 minutes** by one person
 - Think "proof of concept" not "production ready"
 - If it sounds ambitious, make it simpler
@@ -26,21 +27,27 @@
 ### Good Project Ideas
 
 **Pong** — classic paddle-and-ball game
-- _Example features:_ scoreboard, sound effects, difficulty/speed settings
+
+- *Example features:* scoreboard, sound effects, difficulty/speed settings
 
 **Memory Card Match** — flip cards to find matching pairs
-- _Example features:_ move counter, timer, win animation/confetti
+
+- *Example features:* move counter, timer, win animation/confetti
 
 **Drawing Pad** — simple canvas you can sketch on
-- _Example features:_ color picker, brush size slider, eraser tool
+
+- *Example features:* color picker, brush size slider, eraser tool
 
 **Typing Speed Game** — type a passage and measure your words per minute
-- _Example features:_ WPM display, accuracy tracker, difficulty levels
+
+- *Example features:* WPM display, accuracy tracker, difficulty levels
 
 **Trivia Quiz** — multiple choice questions with score tracking
-- _Example features:_ timer per question, category selector, results summary screen
+
+- *Example features:* timer per question, category selector, results summary screen
 
 ### Bad Project Ideas (Too Big!)
+
 - Anything with a database -- tell cursor to avoid this
 - Anything requiring authentication
 - Anything with multiple pages/screens
@@ -60,6 +67,7 @@
 | Pranathi | Restart Button | Button to shuffle and start a new game |
 
 ### Task Guidelines
+
 - Each task should add something **visible** to the project
 - Tasks should be **independent** — no dependencies on other tasks
 - Think: new button, new section, new color scheme, new text, etc.
@@ -114,6 +122,7 @@
 
 ## Success Criteria
 
-- [ ] MVP runs locally
-- [ ] Each team member has merged at least one PR
-- [ ] All features work together without breaking the app
+- MVP runs locally
+- Each team member has merged at least one PR
+- All features work together without breaking the app
+
